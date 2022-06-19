@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BDMS | Admin Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Images/favicon.ico.png"
+    />
+  </head>
+
+  <body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <img src="./Images/LOGO.png" alt="" class="logo" />
+              <span class="title">BDMS | Admin Dashboard</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="icon">
+                <ion-icon name="home-outline"></ion-icon>
+              </span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="./Donor-database.php">
+              <span class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-server"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M1.333 2.667C1.333 1.194 4.318 0 8 0s6.667 1.194 6.667 2.667V4c0 1.473-2.985 2.667-6.667 2.667S1.333 5.473 1.333 4V2.667z"
+                  />
+                  <path
+                    d="M1.333 6.334v3C1.333 10.805 4.318 12 8 12s6.667-1.194 6.667-2.667V6.334a6.51 6.51 0 0 1-1.458.79C11.81 7.684 9.967 8 8 8c-1.966 0-3.809-.317-5.208-.876a6.508 6.508 0 0 1-1.458-.79z"
+                  />
+                  <path
+                    d="M14.667 11.668a6.51 6.51 0 0 1-1.458.789c-1.4.56-3.242.876-5.21.876-1.966 0-3.809-.316-5.208-.876a6.51 6.51 0 0 1-1.458-.79v1.666C1.333 14.806 4.318 16 8 16s6.667-1.194 6.667-2.667v-1.665z"
+                  />
+                </svg>
+              </span>
+              <span class="title">Donors' database</span>
+            </a>
+          </li>
+          <li>
+            <a href="./hospitals.php">
+              <span class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="21"
+                  height="21"
+                  fill="currentColor"
+                  class="bi bi-file-earmark-bar-graph"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M10 13.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-6a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v6zm-2.5.5a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1zm-3 0a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-1z"
+                  />
+                  <path
+                    d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"
+                  />
+                </svg>
+              </span>
+              <span class="title">Hospitals' index</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRtsWFPVSfBhrWccfXXfztjVfzmWzKnKvHtfgDQTvRBzjDbvWVcSkQmFRKRNZZGDNqpjZxl"
+            >
+              <span class="icon">
+                <ion-icon name="help-outline"></ion-icon>
+              </span>
+              <span class="title">Help</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="./logout.php">
+              <span class="icon">
+                <ion-icon name="log-out-outline"></ion-icon>
+              </span>
+              <span class="title">Sign Out</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- ========================= Main ==================== -->
+      <div class="main">
+        <div class="topbar">
+          <div class="toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+          </div>
+
+          <div class="user">
+            <img src="./Images/Shata.JPG" alt="" />
+          </div>
+        </div>
+
+        <!-- ======================= Cards ================== -->
+        <div class="cardBox">
+          <a href="./input.html" style="text-decoration:none;">
+            <div class="card">
+              <div>
+                <div class="numbers">Current stock</div>
+                <div class="cardName">Blood bags count</div>
+              </div>
+              <div class="iconBx">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-clipboard-check" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                  <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                  <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="card">
+          </a>
+            <div>
+                <div class="numbers">80</div>
+                <div class="cardName">Currently available blood bags</div>
+            </div>
+  
+            <div class="iconBx">
+              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-droplet-half" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10c0 0 2.5 1.5 5 .5s5-.5 5-.5c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
+                <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
+              </svg>
+            </div>
+        </div>
+        </div>
+        
+        
+
+        <!-- ================  Details List ================= -->
+        <div class="details">
+          <div class="recentdonors">
+            <div class="cardHeader">
+              <h2>Recent donors</h2>
+              <a href="#" class="btn">View All</a>
+            </div>
+
+            <table>
+              <thead>
+                <tr>
+                  <td>Name</td>
+                  <td>Date</td>
+                  <td>Blood type</td>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Ahmad Shata</td>
+                  <td>27/5/2022</td>
+                  <td>A+</td>
+                </tr>
+
+                <tr>
+                  <td>Mohamed Yasser</td>
+                  <td>20/4/2022</td>
+                  <td>B+</td>
+                </tr>
+
+                <tr>
+                  <td>Rana Nabil</td>
+                  <td>20/4/2022</td>
+                  <td>O+</td>
+                </tr>
+
+                <tr>
+                  <td>Salma Amir</td>
+                  <td>19/4/2022</td>
+                  <td>A+</td>
+                </tr>
+
+                <tr>
+                  <td>Alaa Ebrahem</td>
+                  <td>15/4/2022</td>
+                  <td>A-</td>
+                </tr>
+
+                <tr>
+                  <td>Yasmin Mohamed</td>
+                  <td>14/4/2022</td>
+                  <td>O-</td>
+                </tr>
+
+                <tr>
+                  <td>Nada Mostafa</td>
+                  <td>14/4/2022</td>
+                  <td>B-</td>
+                </tr>
+
+                <tr>
+                  <td>Mayar Osama</td>
+                  <td>10/4/2022</td>
+                  <td>A+</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

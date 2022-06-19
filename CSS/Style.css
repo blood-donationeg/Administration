@@ -1,0 +1,184 @@
+.logo {
+  height: 80px;
+}
+.eli {
+  height: 750px;
+}
+#s {
+  margin-bottom: 10px;
+}
+.cc {
+  position: absolute;
+  top: 290px;
+}
+.cc2 {
+  margin-top: 35px;
+  margin-left: 5px;
+}
+.bd {
+  color: rgb(150, 13, 13);
+}
+.crd {
+  background-color: #dee2e6;
+}
+.btnc {
+  background-color: #d8d8d8;
+}
+.loc {
+  /* background-color: #1b4332; */
+  background-color: rgb(241, 239, 239);
+}
+.arabic {
+  direction: rtl;
+}
+.social {
+  background-color: rgb(0, 155, 155);
+}
+.carousel {
+  background-color: rgb(255, 251, 251);
+}
+#eligiblity {
+  background-color: rgb(206, 206, 206);
+}
+.eli-list {
+  font-size: 18px;
+}
+.social-icons img {
+  width: 60px;
+  transition: 0.5s;
+}
+.social-icons a:hover img {
+  transform: translateY(-10px);
+}
+.border-right {
+  border-right: 0.1px solid rgb(255, 255, 255);
+}
+.wave {
+  width: 100%;
+}
+.navbar a.current,
+.navbar a:hover {
+  font-weight: bold;
+}
+.bloodtype {
+  background: url("/HTML/Images/bloodtypes.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+.vl {
+  border-left: 2px solid rgba(68, 68, 68, 0.418);
+  height: 28px;
+}
+.ui-card {
+  box-shadow: 10px 10px 5px grey;
+}
+.database {
+  background: url("/HTML/Images/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f6f6f6;
+  box-shadow: 0 0 10px #ddd inset;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(104, 104, 104, 0.5);
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(53, 53, 53);
+}
+
+/* Learn-Cards */
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ui-card {
+  height: 460px;
+  border: 1px solid #912200;
+  margin-left: 10px;
+  width: 330px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+  background: radial-gradient(#111 50%, #000 100%);
+}
+
+.ui-card img {
+  transform: scale(1.3);
+  transition: all 0.3s ease-out;
+}
+.ui-card:hover img {
+  transform: scale(1.1) translateY(-20px);
+  opacity: 0.3;
+}
+.ui-card .description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+.ui-card .description h3 {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 0 0 20px;
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.ui-card .description p {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.3s ease-out 0.2s;
+}
+.ui-card .description a {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.3s ease-out 0.4s;
+}
+.ui-card .description a:hover {
+  background: #a2a2a2;
+}
+.ui-card:hover .description h3 {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.ui-card:hover .description p {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.ui-card:hover .description a {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.ui-card .description ul {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.3s ease-out 0.2s;
+}
+.ui-card:hover .description ul {
+  opacity: 1;
+  transform: translateY(0px);
+}
